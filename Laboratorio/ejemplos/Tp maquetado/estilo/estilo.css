@@ -1,0 +1,329 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;  /** 62.5% = 10px de 16px **/
+}
+
+body{
+    margin: 0px;
+}
+
+
+header{
+    background-image: url('../img/header.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#contenedor1{
+    padding: 1rem 15rem 3rem 16rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedor1 nav a{
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1.6rem;
+    color: white;
+}
+
+#contenedor1 nav ul li{
+    list-style: none;
+    display: inline-block;   
+    margin-top: 1.9rem;
+}
+
+
+#header{
+    margin: 45rem 0 0 15rem;
+    color: white;
+    font-size: 2.2rem;
+}
+
+/******************************************************************************************************/
+
+#titulo{
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+#contenedor3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0 30rem 0 30rem;
+}
+
+#contenedor3 img{
+    padding: 0 5rem 0 5rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+#contenedor3 #seguridad, #mejorPrecio, #aTiempo{
+    text-align: center;
+}
+
+#contenedor3 h3{
+    font-size: 1.8rem;
+}
+
+#contenedor3 p{
+    padding: 0 1.6rem 2rem 1.6rem;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+/******************************************************************************************************/
+
+#contenedor4{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+#contenedor4 #anuncio1, #anuncio2, #anuncio3{
+    margin: 0 0.5rem 0 0.5rem;
+    padding-bottom: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    width: 24rem;
+    background-color: #F5F5F5;
+}
+
+#contenedor4 h3{
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+}
+
+
+#contenedor4 .imgAnuncio{
+    width: 24rem;    
+}
+
+#contenedor4 .descripcion{
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+}
+
+#contenedor4 .precio{
+    color: #72A603;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+#contenedor4 p{
+    text-align: left;
+    font-size: 1.2rem;
+    
+}
+
+#contenedor4 .comodidades{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#contenedor4 .comodidades img{
+    width: 2.5rem;
+    padding: 0.5rem 2rem 2rem 2rem;
+}
+
+#contenedor4 .btnAnuncio{
+    background-color: #E08709;
+    color: white;
+    font-weight: bold;
+    width: 22rem;
+    height: 3.5rem;
+    margin: 0 0 0 1rem;
+}
+
+/******************************************************************************************************/
+
+.btnVerTodas{
+    background-color: #6FB300;
+    width: 10rem;
+    height: 3.5rem;
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin: 2.5rem 30.3rem 0 0;
+}
+
+
+/******************************************************************************************************/
+
+#contenedor5{
+    background-image: url('../img/encuentra.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 23rem;
+    margin-top: 7rem;
+}
+
+#contenedor5 h3{
+    padding: 8rem 0 0 30rem;
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor5 p{
+    padding: 1rem 0 0 30rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor5 #contactanos{
+    background-color: #E08709;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 10rem;
+    height: 3.5rem;
+    margin: 1.5rem 0 0 30rem;
+    border: none;
+}
+
+/******************************************************************************************************/
+
+#contenedor6{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    padding: 0 35rem 0 45rem;
+}
+
+#contenedor6 p{
+    font-size: 1.7rem;
+}
+
+#contenedor6 #comentarios{
+    margin-left: 30rem;
+}
+/******************************************************************************************************/
+
+#contenedor7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    padding: 0 20rem 0 15rem;
+}
+
+
+/******************************************************************************************************/
+
+#contenedor8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50rem;
+    margin: 0 1rem 0 15rem;
+    
+}
+
+#contenedor8 .blog img{
+    width: 33%;
+    margin: 0 2rem 1rem 0;
+}
+
+
+#contenedor8 .blog #blog{
+    width: 33%;
+    height: 20%;
+    margin: 0 2rem 1rem 0;
+}
+
+#contenedor8 .blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+}
+
+#contenedor8 h4{
+    font-size: 1.7rem;
+    padding: 0 4rem 0 0;
+    margin: 0;
+}
+
+#contenedor8 p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 1rem 2rem 0 0;
+}
+
+b{
+    color: #E08709;
+}
+
+/******************************************************************************************************/
+
+#contenedor9{
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+    height: 18rem;
+    background-color: #6FB300;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 0;
+    border-radius: 1.5rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+#contenedor9 p{
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#contenedor9 img{
+    width: 3rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+/******************************************************************************************************/
+
+#contenedor10{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1.5rem 25rem 1.5rem 26rem;
+    margin: 1rem 0 10rem 0;
+}
+
+#contenedor10 ul li{
+    list-style: none;
+    display: inline-block;   
+}
+
+#contenedor10 nav a{
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor10 p{
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

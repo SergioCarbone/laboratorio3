@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+
+.boton{
+    color: white;
+    background-color: red;
+    
+}
+
+.boton:hover{
+    /*este es para que cuando paso el cursor por un boton cambie de color.*/
+    background-color: green;
+    border-radius: 15px;
+}
+

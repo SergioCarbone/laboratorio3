@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <script src="./funciones/logica.js"></script>
+    <title>Listado</title>
+</head>
+<body>
+    <div id="padre">
+        <div class="cuadro" id="cuadro" hidden>
+            <input type="button" id="btnCerrar" value="x">  
+            <br>
+            Nombre
+            <br>
+            <input type="text" class="sinError" id="nombre" placeholder="Nombre" >
+            <br>
+            Apellido
+            <br>
+            <input type="text" class="sinError" id="apellido" placeholder="Apellido" >
+            <br>
+            <input type="button" id="btn" value="Guardar">
+            <input type="button" id="btnEditar" value="Editar" hidden>
+        </div>
+    </div>
+    <br>
+    <input type="button" id="btnAgregar" value="Agregar">
+
+    <h2>Listado de Personas</h2>
+    <table class="tabla">
+       <thead>
+           <th>Nombre</th>
+           <th>Apellido</th>
+           <th>Acciones</th>
+       </thead>
+       <tbody id="cuerpo">
+
+       </tbody>
+    </table>
+    
+</body>
+</html>

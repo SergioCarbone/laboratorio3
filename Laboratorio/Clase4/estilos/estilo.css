@@ -1,0 +1,91 @@
+input[type ='text']{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border-radius: 20px;
+}
+
+#btn, #btnEditar{
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    color: black;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+
+#padre{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: relative;
+    justify-content: center;
+}
+
+#cuadro{
+    width: 50%;
+    padding: 10px;
+    bottom: 25%;
+    right: 25%;
+    background-color: lightgray;
+    border-radius: 20px;
+    position: fixed;
+}
+
+
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0 0 0 15px;
+}
+
+td{
+    border-radius: 20px;
+    padding: 0 0 0 15px;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+.sinError{
+    border: 1px;
+    border-color: green;
+}
+
+.error{
+    border: 2px solid red;
+    
+}
+
+#btnCerrar{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    font-size: 10px;
+    margin: 10px 0 10px 10px;
+}
+
+a{
+  margin: 5px;  
+}

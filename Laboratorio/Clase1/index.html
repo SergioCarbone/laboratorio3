@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Primer index</title>
+
+       
+
+    </head>
+    <body>
+        <h1>Titulo Principal</h1> <!-- tenemos que tener solo un h1 -->
+        <!-- atajo para el comentario ctrl + k y despues c -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi, excepturi, nemo molestias, nesciunt in nostrum sapiente a expedita tempore corrupti illo itaque minus quisquam temporibus. Unde, in. Corrupti, minima.
+        </p>
+    
+        <h2>Titula secundario</h2>
+
+        <form>
+            <input type="text">
+            <br>
+            <br>
+            <input type="file">
+            <br>
+            <br>
+            <input type="password">
+
+            <!-- los input submit y reset siempre 
+                tienen que estar dentro del form
+                el submit envia la informacion a un servidor
+                el reset borra la informacion -->
+            <input type="submit"> 
+            <input type="reset">
+
+            <br><br>
+            <input type="button" value="boton1">
+            <br>
+            <br>
+            <input type="text" value="0" size="35" maxlength="8">
+            <br>
+            <br>
+            <input type="number" value="0" size="35" maxlength="8">
+            <br>
+            <br>
+            <!-- en los checkbox el value me sirve para recuperar informacion -->
+            <input type="checkbox" name="op1" checked value="Opcion 1">
+            <input type="checkbox" name="op2" value="Opcion 2">
+            <input type="checkbox" name="op2" checked value="Opcion 3">
+            <br>
+            <br>
+            <input type="hidden" value="valor oculto">
+            <!-- el hidden es para dejar informacion y que el usuario no la
+            vea, para poder verlo tengo que ir con F12 a elements -->
+            <br>
+            <br>
+            <input type="radio" name="rdoTipo" checked value="Opcion 1">
+            <input type="radio" name="rdoTipo" value="Opcion 2">
+            <input type="radio" name="rdoTipo" value="Opcion 3">
+            <br>
+            <br>
+           
+            <br><br>
+            <textarea name="" id="" cols="20" rows="5" wrap>
+            <!-- wrap hace que cuando el texto llege al final haga un salto de
+            linea autopaticamente, igual es el valor por defecto -->
+
+            </textarea>
+            <br><br>
+            <select name="" id="">
+                <!-- los optgrou siempre tienen que estar dentro del select -->
+                <optgroup label="g1">
+                    <option value="1">Opcion 1</option>
+                    <option value="2" >Opcion 2</option>
+                </optgroup>
+                <optgroup label="g2">
+                    <option value="1">Opcion 1</option>
+                    <option value="2" selected>Opcion 2</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <br>
+            
+            <input type="image" src="./11-2-jaguar-png-hd.png">
+        </form>
+    </body>
+</html>

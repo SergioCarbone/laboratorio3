@@ -1,0 +1,23 @@
+box-sizing: ponerlo dentro de cada contenedor para que no agrande el elemento.
+
+-flex: display: flex; (Se le aplica al contenedor padre)
+El contenedor padre es flexible y se adapta a la cantidad de hijos que tiene
+
+-flex direction: propiedad por defecto row
+tambien tiene: column, row-reverse, column-reverse
+
+-justify content: por defecto flex-start
+tambien: flex-end, center, space-between, space-around
+
+aling-items: por defecto stretch
+tambien: flex-start, 
+
+----------------------------------------------------------------------------------------------
+
+flex-wrap: por defecto nowrap (cambia el tamaño de acuerdo a la pantalla)
+Si ponemos wrap mantiene el tamaño original y lo acomoda en la pantalla
+
+--------------------------------------------------------------------------------------------
+
+flex-grow (este se le aplica a los contenedores hijos) 
+mientras mas peso tenga cada caja va a ocupar mas espacio
